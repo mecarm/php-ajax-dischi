@@ -19,9 +19,9 @@
                     alt="">
             </div>
             <div class="w-auto me-3">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" v-model="genereSelezionato" @change="genereSelected" aria-label="Default select example">
                     <option disabled value="">Filtra per genere</option>
-                    <option value=""></option>
+                    <option v-for="(element, index) in generi" :value="element">{{element}}</option>
                 </select>
             </div>
         </header>
