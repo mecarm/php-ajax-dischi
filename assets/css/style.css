@@ -1,0 +1,26 @@
+header{
+    background-color: #303841;
+    height: 10%;
+}
+.logo-cont{
+      width: 50px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+}
+img{
+      width: 100%;
+}
+#app{
+    height: 100vh;
+}
+main{
+    height: 90%;
+    background: #1D2E3C;
+    padding: 30px;
+}
+.cards{
+    width: 80%;
+    margin: auto;
+}
