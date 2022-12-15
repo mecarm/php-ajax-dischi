@@ -1,5 +1,5 @@
 <?php
-//DATABASE
+//DATABASE sottoforma di array multidimensionale
 $database = [
     [
         'title' => 'New Jersey',

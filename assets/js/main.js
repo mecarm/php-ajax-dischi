@@ -1,7 +1,7 @@
 var app = new Vue({
     el: '#app',
     data: {
-      
+      Array : 'ciao'
     },
     mounted() {
       
@@ -10,6 +10,6 @@ var app = new Vue({
   
     },
     methods: {
-        
+
     }
   })
