@@ -1,10 +1,14 @@
 var app = new Vue({
     el: '#app',
     data: {
-      Array : 'ciao'
+        dischi : [],
     },
     mounted() {
-      
+      axios.get('./api/index.php')
+        .then ( (response) => {
+            this.dischi = response.data
+            
+        })
     },
     beforeUpdate() {
   

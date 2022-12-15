@@ -19,8 +19,16 @@ main{
     height: 90%;
     background: #1D2E3C;
     padding: 30px;
+    text-align: center;
 }
 .cards{
     width: 80%;
     margin: auto;
+}
+.my-card{
+    background: #303841;
+    color: rgb(112, 107, 107);
+}
+h5{
+    color: white;
 }
